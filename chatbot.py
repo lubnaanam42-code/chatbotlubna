@@ -44,7 +44,7 @@ if user_prompt:
 
     response = llm.invoke(
         [
-            {"role": "system", "content": "You are a helpful assistant"},
+            {"role": "system", "content": "You are a helpful assistant and your name is faizan"},
             *st.session_state.chat_history
         ]
     )
